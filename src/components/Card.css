@@ -1,0 +1,28 @@
+.card-container {
+  width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 8px #999;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  background: #fff;
+  height: fit-content;
+}
+.card-img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+.card-title,
+.card-desc {
+  margin: 0.5rem 5%;
+}
+.card-btn {
+  text-align: center;
+  width: 90%;
+  text-decoration: none;
+  color: #fff;
+  background: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem auto;
+}
